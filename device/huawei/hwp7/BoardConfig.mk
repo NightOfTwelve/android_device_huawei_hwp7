@@ -5,7 +5,7 @@ USE_CAMERA_STUB := true
 
 TARGET_ARCH := arm
 TARGET_NO_BOOTLOADER := true
-TARGET_BOARD_PLATFORM := unknown
+TARGET_BOARD_PLATFORM := hi6620oem
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_ARCH_VARIANT := armv7-a-neon
@@ -16,7 +16,8 @@ ARCH_ARM_HAVE_TLS_REGISTER := true
 TARGET_BOOTLOADER_BOARD_NAME := hwp7
 
 BOARD_KERNEL_CMDLINE := k3v2mem k3v2_ion=1 vmalloc=448M maxcpus=4 initcall_debug=n
-BOARD_KERNEL_BASE := 0x07000000
+#BOARD_KERNEL_BASE := 0x07000000
+BOARD_KERNEL_BASE := 0x00771162c
 BOARD_KERNEL_PAGESIZE := 2048
 
 # fix this up by examining /proc/mtd on a running device
