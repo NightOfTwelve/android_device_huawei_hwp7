@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DTS2013110706772 VoLTE w00213836 20131017 begin-->
+<permissions>
+ <library name="com.huawei.imslibrary"
+          file="/system/framework/imslibrary.jar"/>
+</permissions>
+<!-- DTS2013110706772 VoLTE w00213836 20131017 end-->
